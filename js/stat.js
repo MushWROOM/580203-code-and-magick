@@ -57,8 +57,8 @@ window.renderStatistics = function (ctx, names, times) {
   };
   drawCloud('rgba(0, 0, 0, 0.7)', 220, 100);// shadow
   drawCloud('rgba(255, 255, 255, 1)', 210, 90);// cloud
-  drawText('#000', '16 px PT Mono', 230, 16, 'Ура, вы победили!');
-  drawText('#000', '16 px PT Mono', 230, 32, 'Список результатов: ');
+  drawText('#000', '16 px PT Mono', 300, 16, 'Ура, вы победили!');
+  drawText('#000', '16 px PT Mono', 300, 32, 'Список результатов: ');
   var maxValue = getMaxElement(times);
   drawHistogram(150, times, names, 220, 90, maxValue);
 };
